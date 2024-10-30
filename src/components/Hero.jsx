@@ -6,9 +6,9 @@ const Hero = () => {
     <div className=' hero'>
         <div>
         <p className='text-white text-7xl'><br /></p>
-            <div className='mt-10 flex flex-col gap-8 items-center justify-center w-[95%] lg:w-[60%] mx-auto'>
+            <div className='mt-10 flex flex-col gap-8 items-center justify-center w-min-[60%] w-max-[95%] lg:w-[60%] mx-auto'>
                 <div className='text-white text-4xl lg:text-7xl font-bold py-10'>
-                    <h2 className='text-center'>Learn from the best,be
+                    <h2 className='text-center'>Learn from the best, be
                     you best..</h2>
                 </div>
                 <div className='text-gray-700 text-l lg:text-xl '>
